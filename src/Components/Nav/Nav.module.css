@@ -1,6 +1,4 @@
 header {
-  background-color: #222f3e;
-  color: white;
   padding: 2rem 3rem;
   display: flex;
   justify-content: space-between;
@@ -8,6 +6,8 @@ header {
   align-items: center;
   font-size: 1.6rem;
 }
+
+
 
 /* //media query lower than 497 px */
 @media (max-width: 497px) {
@@ -62,7 +62,7 @@ nav > ul > li > a,
 .nav-link {
   align-items: center;
   appearance: none;
-  background-color: #c8d6e5;  
+  background-color: #c8d6e5;
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(100, 25, 66, 0.4) 0 2px 4px,
@@ -119,10 +119,11 @@ nav > ul > li > a:active,
   color: white;
 }
 .light {
-  background-color: white;
+  background-color: #8395a7;
 }
 
 .slider-container {
+  
   background-color: lightgray;
   width: 50px;
   height: 25px;
@@ -144,7 +145,11 @@ nav > ul > li > a:active,
 }
 
 .slider-container.dark {
-  background-color: darkgray;
+  background-color: #10ac84;
+}
+
+.slider-container.light {
+  background-color: black;
 }
 
 .slider-container.dark .slider-button {

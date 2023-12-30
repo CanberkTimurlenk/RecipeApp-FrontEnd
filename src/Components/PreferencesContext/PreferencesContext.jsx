@@ -7,7 +7,7 @@ export const PreferencesContext = createContext();
 
 export const PreferencesProvider = ({ children }) => {
   const [language, setLanguage] = useState("en");
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme( theme === 'light' ? 'dark' : 'light')

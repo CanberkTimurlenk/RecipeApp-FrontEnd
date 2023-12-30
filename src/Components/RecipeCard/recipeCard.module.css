@@ -1,6 +1,5 @@
 .card {
-  width: 300px;
-  border: 1px solid #ddd;
+  width: 300px;  
   padding: 10px;
   border-radius: 8px;
   display: flex;
@@ -8,6 +7,23 @@
   justify-content: space-between;
   gap: 10px;
 }
+
+.card-dark{
+  background-color: #576574;
+  color: wheat;
+  border: 1px solid #576574;
+  
+}
+
+.card-light{
+  background-color: #fff;
+  color: #222f3e;
+  border: 1px solid #c8d6e5;
+}
+
+
+
+
 
 .card img {
   width: 100%;
@@ -20,7 +36,11 @@
   margin: 1rem 0;
 }
 
-.btn-delete{
+.card-dark > div > p {
+  color: wheat;
+}
+
+.btn-delete {
   background-color: #ff0000;
   color: white;
   border: none;
@@ -29,6 +49,16 @@
   cursor: pointer;
 }
 
-.btn-delete:hover{
+.btn-delete:focus {
+  outline: none;
+}
+
+.btn-delete:active {
+  transform: scale(0.95);
+}
+
+
+
+.btn-delete:hover {
   background-color: #f74a3e;
 }

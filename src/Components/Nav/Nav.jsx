@@ -20,6 +20,8 @@ const ThemeSlider = () => {
 
 export function Nav() {
   const { isAuthenticated, logout } = useContext(AuthContext);
+  const { theme } = useContext(PreferencesContext);
+
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -32,7 +34,7 @@ export function Nav() {
   };
 
   return (
-    <header>
+    <header className={styles[theme]}>
       <div>Recipe Platform</div>
       <nav>
         <ul>

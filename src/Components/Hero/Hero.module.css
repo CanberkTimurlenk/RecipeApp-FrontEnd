@@ -9,14 +9,26 @@
   font-style: 1.2rem;
 } */
 
+
+
 .home-title {
-  background-color: #54a0ff;
-  color: #fff;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5rem;
 }
+
+.home-title-dark {
+  background-color: #576574;
+  color:wheat
+}
+
+.home-title-light {
+  background-color: #54a0ff;
+  color: #fff;
+}
+
+
 
 .home-title h1 {
   margin: 0;
@@ -35,11 +47,27 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.kitchen-hack-dark {
+  background-color: #576574;
+}
+
+.kitchen-hack-dark > p {
+  color: #c8d6e5 !important;
+}
+
+.kitchen-hack-dark > h2 {
+  color: #222f3e !important;
+}
+
 .hacks-title {
   color: #ee5253;
   font-size: 1.5em;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.hacks-title-dark {
+  color: rgb(220, 220, 202) !important;
 }
 
 .kitchen-hack h2 {
